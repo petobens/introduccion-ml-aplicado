@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "ejercicios"
+version = "0.1.0"
+description = ""
+authors = ["Mutt Data <team@muttdata.ai>"]
+packages = [{include = "ejercicios"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.0.3"
+matplotlib = "^3.2.1"
+scikit-learn = "^0.23.0"
+dtreeviz = "^0.8.2"
+kaggle = "^1.5.6"
+
+[tool.poetry.dev-dependencies]
+pdbpp = "^0.10.2"
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0a5"]
+build-backend = "poetry.core.masonry.api"
