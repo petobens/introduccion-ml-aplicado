@@ -12,6 +12,7 @@ matplotlib = "^3.2.1"
 scikit-learn = "^0.23.0"
 dtreeviz = "^0.8.2"
 kaggle = "^1.5.6"
+seaborn = "^0.10.1"
 
 [tool.poetry.dev-dependencies]
 pdbpp = "^0.10.2"

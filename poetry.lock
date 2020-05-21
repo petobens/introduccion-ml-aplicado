@@ -790,6 +790,20 @@ version = "1.4.1"
 numpy = ">=1.13.3"
 
 [[package]]
+category = "main"
+description = "seaborn: statistical data visualization"
+name = "seaborn"
+optional = false
+python-versions = ">=3.6"
+version = "0.10.1"
+
+[package.dependencies]
+matplotlib = ">=2.1.2"
+numpy = ">=1.13.3"
+pandas = ">=0.22.0"
+scipy = ">=1.0.1"
+
+[[package]]
 category = "dev"
 description = "Send file to trash natively under Mac OS X, Windows and Linux."
 name = "send2trash"
@@ -928,7 +942,7 @@ python-versions = "*"
 version = "0.3"
 
 [metadata]
-content-hash = "a3bfd774ac0b1ee3ce10fe57d7bb48ce8514352d2dda1a356bf112cecb273f50"
+content-hash = "c09c1711c19b9c741a968335a2ee6752d6ade620e239bc62a100d3c0b04b79ae"
 python-versions = "^3.8"
 
 [metadata.files]
@@ -1340,6 +1354,10 @@ scipy = [
     {file = "scipy-1.4.1-cp38-cp38-win32.whl", hash = "sha256:cc971a82ea1170e677443108703a2ec9ff0f70752258d0e9f5433d00dda01f59"},
     {file = "scipy-1.4.1-cp38-cp38-win_amd64.whl", hash = "sha256:2cce3f9847a1a51019e8c5b47620da93950e58ebc611f13e0d11f4980ca5fecb"},
     {file = "scipy-1.4.1.tar.gz", hash = "sha256:dee1bbf3a6c8f73b6b218cb28eed8dd13347ea2f87d572ce19b289d6fd3fbc59"},
+]
+seaborn = [
+    {file = "seaborn-0.10.1-py3-none-any.whl", hash = "sha256:c901ce494541fb4714cfa7db79d0232dc3f4c4dfd3f273bacf17816084df5b53"},
+    {file = "seaborn-0.10.1.tar.gz", hash = "sha256:2d1a0c9d6bd1bc3cadb0364b8f06540f51322a670cf8438d0fde1c1c7317adc0"},
 ]
 send2trash = [
     {file = "Send2Trash-1.5.0-py3-none-any.whl", hash = "sha256:f1691922577b6fa12821234aeb57599d887c4900b9ca537948d2dac34aea888b"},
